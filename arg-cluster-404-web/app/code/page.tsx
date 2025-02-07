@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import React from "react";
 
 const Cluster = () => {
@@ -8,7 +6,7 @@ const Cluster = () => {
       <h1 className="font-semibold text-2xl">Üçüncü Aşama:</h1>
       <span className="opacity-5">Mail</span>
       <div className="flex flex-col items-center justify-center">
-        <p>Seed, bir byte'ın alabileceği değerlerin tümünün toplamıdır.</p>
+        <p>Seed, bir byte&apos;ın alabileceği değerlerin tümünün toplamıdır.</p>
         <img
           src="/encodeobfuscated.png"
           alt="Encoded Image"

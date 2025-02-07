@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import React from "react";
 
 const Cluster = () => {
@@ -9,7 +7,7 @@ const Cluster = () => {
       <span className="opacity-5">Deneme</span>
       <div className="flex flex-col items-center justify-center">
         <p>Tebrikler. Yeni oyuncağını dene.</p>
-        <p>"Seed" videonun saniyesinde gizli.</p>
+        <p>&quot;Seed&quot; videonun saniyesinde gizli.</p>
         <img
           src="/encoded.png"
           alt="Encoded Image"
